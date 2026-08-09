@@ -1,0 +1,4 @@
+libvppinfra_25.02-release
+vpp_25.02-release
+vpp-plugin-core_25.02-release
+vpp-plugin-dpdk_25.02-release
