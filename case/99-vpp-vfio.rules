@@ -1,0 +1,2 @@
+# Bind 82598 10G ports (0000:01:00.0/.1) to vfio-pci at boot so VPP can claim them
+ACTION=="add", SUBSYSTEM=="pci", ATTR{vendor}=="0x8086", ATTR{device}=="0x10c6", ATTR{driver_override}="vfio-pci"
